@@ -1,0 +1,28 @@
+# High Order Attention Model Visual Question Answering in Tensorflow
+# By : Mihir Phatak & Vrunal Mhatre
+
+Our initial effort has been to get started with paper's implementation.
+We used palmetto clusters with Anaconda to setup environment for packages and modules required.
+Since, our implementation has been in tensorflow, instead of torch and lua. We had to make use of the 
+models and optimizers in tensorflow library for our project. LSTM and Adam optimizer to name a few.
+
+We also took reference of the standard data preprocessing tools provided by http://www.visualqa.org/.
+
+Package Requirements:
+Python2.6
+Tensorflow
+numpy
+h5py
+nltk
+Scipy
+cuDnnv8.051
+cuda-toolkit
+
+Data:
+Use the vqa_preprocessing.py file after downloading the data set from http://cocodataset.org/#download.
+
+We have implemented the techniques discussed in our first report using tensorflow library.The data embedding layer with tf.graph to store features within images 
+extracted through VGG model and LSTM training layer.
+The question and answers are tokenized using nltk library to vectorize words in questions and answer.
+
+
